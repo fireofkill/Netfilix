@@ -103,7 +103,7 @@ unsafe_allow_html=True
 
 # ------------------ مدل ------------------
 
-with open("Netfilix/model_Net.pkl","rb") as file:
+with open("model_Net.pkl","rb") as file:
 
     model=pickle.load(file)
 
